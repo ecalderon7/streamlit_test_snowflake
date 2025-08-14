@@ -1,0 +1,38 @@
+property,value,default,description
+NAME,US_ECALDERONG,null,Name
+COMMENT,DEV Y VIEW TODO ERPs,null,user comment associated to an object in the dictionary
+DISPLAY_NAME,CAGE851005RH9,null,Display name of the associated object
+TYPE,PERSON,null,"Type of the account, application package, data exchange, data exchange listing, replication group, secret, network rule, or user."
+LOGIN_NAME,ENRIQUE.CALDERON@HERKOM.COM,null,Login name of the user
+FIRST_NAME,ENRIQUE,null,First name of the user
+MIDDLE_NAME,null,null,Middle name of the user
+LAST_NAME,CALDERON GAONA,null,Last name of the user
+EMAIL,enrique.calderon@multimedios.com,null,Email address of the user
+PASSWORD,********,null,Password of the user
+MUST_CHANGE_PASSWORD,false,false,User must change the password
+DISABLED,false,false,Whether the entity is disabled
+SNOWFLAKE_LOCK,false,false,"Whether the user, account, or organization is locked by Snowflake"
+SNOWFLAKE_SUPPORT,false,false,Snowflake Support is allowed to use the user or account
+DAYS_TO_EXPIRY,null,null,User record will be treated as expired after specified number of days
+MINS_TO_UNLOCK,null,null,Temporary lock on the user will be removed after specified number of minutes
+DEFAULT_WAREHOUSE,WH_DIR_SYS,null,Default warehouse for this user
+DEFAULT_NAMESPACE,,null,Default database namespace prefix for this user
+DEFAULT_ROLE,ACCOUNTADMIN,null,Primary principal of user session will be set to this role
+DEFAULT_SECONDARY_ROLES,"[""ALL""]",[ALL],The secondary roles will be set to all roles provided here.
+EXT_AUTHN_DUO,true,false,Whether Duo Security is enabled as second factor authentication
+EXT_AUTHN_UID,CA72080.ENRIQUE.CALDERON@HERKOM.COM,null,External authentication ID of the user
+DEFAULT_MFA_METHOD,null,null,Default MFA method for the user
+HAS_MFA,true,false,Whether the user is enrolled in multi-factor authentication
+HAS_PAT,false,false,Whether the user has a programmatic access token
+HAS_WORKLOAD_IDENTITY,false,false,Whether the user has workload identity defined
+MINS_TO_BYPASS_MFA,null,null,Temporary bypass MFA for the user for a specified number of minutes
+MINS_TO_BYPASS_NETWORK_POLICY,null,null,Temporary bypass network policy on the user for a specified number of minutes
+RSA_PUBLIC_KEY,null,null,RSA public key of the user
+RSA_PUBLIC_KEY_FP,null,null,Fingerprint of user's RSA public key.
+RSA_PUBLIC_KEY_LAST_SET_TIME,null,null,The timestamp at which the RSA public key was last set for the user. Defaults to null if no RSA public key has been set yet.
+RSA_PUBLIC_KEY_2,null,null,Second RSA public key of the user
+RSA_PUBLIC_KEY_2_FP,null,null,Fingerprint of user's second RSA public key.
+RSA_PUBLIC_KEY_2_LAST_SET_TIME,null,null,The timestamp at which the second RSA public key was last set for the user. Defaults to null if no second RSA public key has been set yet.
+PASSWORD_LAST_SET_TIME,2025-02-12 01:03:29.019,null,The timestamp on which the last non-null password was set for the user. Default to null if no password has been set yet.
+CUSTOM_LANDING_PAGE_URL,null,null,Custom Landing Page of the user
+CUSTOM_LANDING_PAGE_URL_FLUSH_NEXT_UI_LOAD,false,false,Whether or not to flush the custom landing page of the user on next UI load
